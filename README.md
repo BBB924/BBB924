@@ -1,5 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=soft&color=gradient&height=100&section=header&text=%EC%A7%84%EB%B3%B4%EA%B2%BD%20%7C%20%EC%8B%A0%EC%9E%85%20%EB%B0%B1%EC%97%94%EB%93%9C%20%EA%B0%9C%EB%B0%9C%EC%9E%90%20%7C%20%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%A4%91%EC%8B%AC%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%EA%B0%9C%EB%B0%9C&fontSize=30&animation=twinkling)
-
+![header](https://capsule-render.vercel.app/api?type=soft&color=linear-gradient(90deg,%20%23997BEB,%20%23D8B4FE)&height=100&section=header&text=%EC%A7%84%EB%B3%B4%EA%B2%BD%20%7C%20%EC%8B%A0%EC%9E%85%20%EB%B0%B1%EC%97%94%EB%93%9C%20%EA%B0%9C%EB%B0%9C%EC%9E%90%20%7C%20%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%A4%91%EC%8B%AC%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%EA%B0%9C%EB%B0%9C&fontSize=30&animation=twinkling)
 
 
 ## 안녕하세요!🖐🙇
