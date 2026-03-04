@@ -55,9 +55,9 @@
 
 #### 🛠 담당 기능
 - 교환 게시글 CRUD 구현
+  - Kakao Map API를 활용한 위치 기반 직거래 희망 지역 설정
 - 카테고리 페이지 구현
-- Kakao Map API를 활용한 위치 기반 직거래 희망 지역 설정
-- WebSocket + Redis pub/sub 기반 실시간 채팅 
+- WebSocket + Redis pub/sub 기반 실시간 채팅
 - 실시간 인기 검색어 수집 / 노출 / 금칙어 필터링
 - 일반 공지사항 / 팝업 공지사항 CRUD 구현
 - 관리자 기능 구현
