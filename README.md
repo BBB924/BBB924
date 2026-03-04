@@ -47,7 +47,7 @@
 
 | 프로젝트명 | 기간 | 기술 스택 | 역할 |
 |------------|------|-----------|------|
-| [📦 Goodsple](https://github.com/goodsple) | 2025.06 ~ 2025.08 | `Mybatis`, `React`, `TypeScript`, `WebSocket`, `PostgreSQL`, `AWS` | 프론트엔드 & 백엔드 개발<br>(팀 프로젝트) |
+| [📦 Goodsple](https://github.com/goodsple) | 2025.06 ~ 2026.02 | `Mybatis`, `React`, `TypeScript`, `WebSocket`, `PostgreSQL`, `AWS` | 프론트엔드 & 백엔드 개발<br>(팀 프로젝트) |
 
 **📌 서비스 소개**  
 - 팬들이 보유한 굿즈를 지역 기반으로 1:1 교환할 수 있는 플랫폼  
@@ -55,11 +55,13 @@
 
 #### 🛠 담당 기능
 - 교환 게시글 CRUD 구현
+- 카테고리 페이지 구현
 - Kakao Map API를 활용한 위치 기반 직거래 희망 지역 설정
 - WebSocket + Redis pub/sub 기반 실시간 채팅 
 - 실시간 인기 검색어 수집 / 노출 / 금칙어 필터링
 - 일반 공지사항 / 팝업 공지사항 CRUD 구현
 - 관리자 기능 구현
+   - 카테고리 관리
    - 공지사항 관리
    - 인기검색어/금칙어 관리
  
