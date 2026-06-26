@@ -2,7 +2,7 @@
 
 
 ## 안녕하세요!🖐🙇
-책임감과 꼼꼼함을 가진 백엔드 개발자 **진** 입니다.
+책임감과 꼼꼼함을 가진 백엔드 개발자 **진보경** 입니다.
 
 - **사용자의 니즈를 이해하고 반영하는 서비스 개발**을 지향합니다.
 
@@ -24,21 +24,25 @@
 
 #### ⚙️ Backend  
 <!-- Backend -->
+<img src="https://img.shields.io/badge/Java-007396?style=flat&logo=openjdk&logoColor=white"/>
 <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=flat&logo=springboot&logoColor=white"/>
 <img src="https://img.shields.io/badge/JWT-000000?style=flat&logo=jsonwebtokens&logoColor=white"/>
+<img src="https://img.shields.io/badge/Spring Security-6DB33F?style=flat&logo=springsecurity&logoColor=white"/>
 <img src="https://img.shields.io/badge/MyBatis-005B9F?style=flat&logoColor=white"/><br>
 
 <!-- DB -->
 #### 🗄 Database 
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white"/>
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white"/>
-<img src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white"/><br>
   
 <!-- Tools --> 
 #### 🛠 Tools 
 <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white"/>
 <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white"/>
 <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat&logo=swagger&logoColor=black"/>
+<img src="https://img.shields.io/badge/AWS EC2-FF9900?style=flat&logo=amazonaws&logoColor=white"/>
+<img src="https://img.shields.io/badge/AWS S3-569A31?style=flat&logo=amazons3&logoColor=white"/>
 </div>
 
 ---
@@ -47,7 +51,7 @@
 
 | 프로젝트명 | 기간 | 기술 스택 | 역할 |
 |------------|------|-----------|------|
-| [📦 Goodsple](https://github.com/goodsple) | 2025.06 ~ 2026.02 | `Mybatis`, `React`, `TypeScript`, `WebSocket`, `PostgreSQL`, `AWS` | 프론트엔드 & 백엔드 개발<br>(팀 프로젝트) |
+| [📦 Goodsple](https://github.com/goodsple) | 2025.06 ~ 2026.02 |  `Spring Boot`, `MyBatis`, `React`, `TypeScript`, `WebSocket/STOMP`, `PostgreSQL`, `AWS` | 프론트엔드 & 백엔드 개발<br>(팀 프로젝트) |
 
 **📌 서비스 소개**  
 - 팬들이 보유한 굿즈를 지역 기반으로 1:1 교환할 수 있는 플랫폼  
@@ -56,9 +60,9 @@
 #### 🛠 담당 기능
 - 교환 게시글 CRUD 구현
   - Kakao Map API를 활용한 위치 기반 직거래 희망 지역 설정
-- 카테고리 페이지 구현
-- WebSocket 기반 실시간 채팅
-- 실시간 인기 검색어 수집 / 노출 / 금칙어 필터링
+- 단계형 카테고리 페이지 구현
+- WebSocket/STOMP 기반 실시간 채팅 구현
+- 실시간 인기 검색어 수집, 노출, 금칙어 필터링
 - 일반 공지사항 / 팝업 공지사항 CRUD 구현
 - 관리자 기능 구현
    - 카테고리 관리
@@ -69,13 +73,13 @@
 
 | 프로젝트명 | 기간 | 기술 스택 | 역할 |
 |------------|------|-----------|------|
-| [📖 Readio](https://github.com/Team-Readio) | 2025.04 ~ 2025.06 | `Spring Boot`, `MyBatis`, `React`, `TypeScript`, `MySQL`, `AWS` | 프론트엔드 & 백엔드 개발<br>(팀 프로젝트) |
+| [📖 Readio](https://github.com/Team-Readio) | 2025.04 ~ 2025.06 |  `Spring Boot`, `Spring Security`, `JWT`, `MyBatis`, `React`, `TypeScript`, `MySQL`, `AWS` | 프론트엔드 & 백엔드 개발<br>(팀 프로젝트) |
 
 **📌 서비스 소개**  
 - 감정, 관심사, 날씨 등 다양한 요소를 기반으로 책과 관련된 유튜브 콘텐츠를 **개인 맞춤형으로 큐레이션**해주는 플랫폼입니다.
 
 #### 🛠 담당 기능
-- 회원가입 / 로그인 / 로그아웃 / 탙퇴
+- 회원가입 / 로그인 / 로그아웃 / 탈퇴 구현
   - 이메일 기반 회원가입, JWT 로그인 및 인증 처리
   - 비밀번호 암호화 및 유효성 검사
   - 카카오 소셜 로그인 구현
@@ -87,23 +91,18 @@
 - 마이페이지 - 회원정보 관리
   - 회원정보 조회 및 수정 (비밀번호 재확인 포함)
   - 이메일주소, 휴대폰 번호 등 중복 확인 처리
+
 - 관리자 기능 구현
   - 회원 목록 조회 및 조건 검색 (가입일자, 회원구분, 신고횟수 등)
-  - 회원 권한 관리 (일반/관리자/정지 권한 변경, 계정 삭제)
+  - 회원 권한 관리 구현 (일반/관리자/정지 권한 변경, 계정 삭제)
 
 ---
 
 ## 📫 Contact
 
 - 📧 Email: qhrud4231@naver.com
-- 🌐 Portfolio: 
 
 ---
-
-## 🏅 Certificates
-
-- 정보처리산업기사 필기 (2025.06)
-
 
 <!--
 **BBB924/BBB924** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
